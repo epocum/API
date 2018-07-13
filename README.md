@@ -52,7 +52,7 @@ The response are in json standard mode.
 
 Example:
 
-https://localhost:88/get_webchain
+http://localhost:88/get_webchain
 
 [{"_id":"xxxxxxxxxxxxxxx","ip":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","website":"https://www.somewebsite.com/","ipfs":"QmQxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","browser":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}]
 
