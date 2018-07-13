@@ -23,9 +23,11 @@ This software suite is composed of the following components:
 ├── Epocum                <- Top-level
 │   ├── API               <- API
 │   ├── Dapp              <- Decentralized app
-│   │   ├── csharp        <- 
-│   │   ├── java          <-
-│   │   └── python        <-
+│   │   ├── assets        <- 
+│   │   ├── css           <-
+│   │   └── js        	  <-
+│   │   └── plugins       <-
+│   │   └── scss          <-
 │   ├── node_modules      <- Node js dependencies folder
 │   │   ├──.......
 │   └── resource          <- External resource
