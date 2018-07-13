@@ -1,17 +1,17 @@
 # Api beta v1.0
 
-Epocum's API v1.0 folder and detailed specification
+Epocum's API v1.0 folder MAP and use's specification
 
 ## Table of Contents
 
-*   [Introduction](#about-or-tools)
+*   [Introduction](#about-epocum-api-service)
 *   [Folder map](#folder map)
 *   [Documentation](#documentation)
 *   [Licence](#licence)
 
-## About Epocum API
+## About Epocum API Service
 
-Epocum's API 
+About Epocum API 
 
 The API folder contains:
 * A constraint programming solver;
