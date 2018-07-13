@@ -9,39 +9,24 @@ Epocum's API v1.0 folder MAP and use's specification
 *   [Documentation](#documentation)
 *   [Licence](#license)
 
-## introduction
+## Introduction
 
-About Epocum API 
+The API 
 
-The API folder contains:
-* A constraint programming solver;
-* A linear programming solver;
-* Wrappers around commercial and other open source solvers, including mixed
-integer solvers;
-* Bin packing and knapsack algorithms;
-* Algorithms for the Traveling Salesman Problem and Vehicle Routing Problem;
-* Graph algorithms (shortest paths, min cost flow, max flow, linear sum
-assignment).
-
-We wrote OR-Tools in C++, but also provide wrappers in Python, C# and
-Java.
+We wrote all in Javascript and NodeJs.
 
 ## Folder map
 
 This software suite is composed of the following components:
 
 ```
-├── Makefile              <- Top-level Makefile
-├── makefiles             <- Subsidiary makefiles
-├── CMakeLists.txt        <- Top-level CMakeLists.txt
-├── cmake                 <- Subsidiary CMake files
-├── ortools               <- Root directory for Source code
-│   ├── base              <- Basic utilities
-│   ├── algorithms        <- Basic algorithms
+├── Epocum              <- Top-level
+│   ├── db              <- local mongodb blockchain
+│   ├── Dapp        <- Decentralized app
 │   │   ├── csharp        <- C# wrapper
 │   │   ├── java          <- Java wrapper
 │   │   └── python        <- Python wrapper
-│   ├── util              <- Utilities needed by the constraint solver
+│   ├── resource              <- Utilities needed by the constraint solver
 │   ├── constraint_solver <- Constraint solver
 │   │   ├── csharp        <- C# wrapper
 │   │   ├── java          <- Java wrapper
@@ -62,50 +47,13 @@ This software suite is composed of the following components:
 │   │   ├── java          <- Java wrapper
 │   │   └── python        <- Python wrapper
 │   ├── flatzinc          <- FlatZinc interpreter
-│   └── com
-│       └── google
-│           └── ortools   <- C# and Java source files
-├── examples              <- Root directory for all examples
-│   ├── data              <- Data files for examples
-│   ├── cpp               <- C++ examples
-│   ├── python            <- Python examples
-│   ├── notebook          <- Jupyter/IPython notebooks
-│   ├── csharp            <- C# examples
-│   ├── fsharp            <- F# examples
-│   ├── com               <- Java examples
-│   ├── flatzinc          <- FlatZinc examples
-│   └── tests             <- Unit tests and bug reports
-├── LICENSE-2.0.txt       <- Apache license
-├── gen                   <- Generated files
-└── tools                 <- Delivery Tools (e.g. Windows GNU binaries, scripts, dockers)
+│   └── resource          <- External resource
 ```
 
 ## Installation
 
 This software suite has been tested under:
-- Ubuntu 16.04 and up (64-bit);
-- Mac OSX El Capitan with Xcode 7.x (64-bit);
-- Microsoft Windows with Visual Studio 2015 and 2017 (64-bit).
-
-OR-Tools currently builds with a Makefile, but also provides Bazel support.
-
-For installation instructions (both source and binary), please visit
-https://developers.google.com/optimization/introduction/installing.
-
-## Experimental Build with CMake
-
-We also provide experimental CMake support.<br>Please check the
-[CMake build instructions](cmake/README.md).
-
-## Quick Start
-
-The best way to learn how to use OR-Tools is to follow the tutorials in our
-developer guide:
-
-https://developers.google.com/optimization/introduction/get_started
-
-If you want to learn from code examples, take a look at the examples in the
-[examples](examples) directory.
+- Microsoft Windows (64-bit).
 
 ## Documentation
 
