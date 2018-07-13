@@ -31,23 +31,10 @@ This software suite is composed of the following components:
 │   └── resource          <- External resource
     └── db                <- local mongodb blockchain
 ```
-
-## Installation
-
-This software suite has been tested under:
-- Microsoft Windows (64-bit).
-
 ## Documentation
 
 The complete documentation for OR-Tools is available at:
 https://developers.google.com/optimization/
-
-## Contributing
-
-The [CONTRIBUTING.md](CONTRIBUTING.md) file contains instructions on how to
-submit the Contributor License Agreement before sending any pull requests (PRs).
-Of course, if you're new to the project, it's usually best to discuss any
-proposals and reach consensus before sending your first PR.
 
 ## License
 
