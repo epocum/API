@@ -33,8 +33,7 @@ This software suite is composed of the following components:
 ```
 ## Documentation
 
-The complete documentation for OR-Tools is available at:
-https://developers.google.com/optimization/
+Epocum's API service enable users with local node installed to get information reguarding decentralized links and smartsharing contract generated from the same platform.
 
 ## License
 
