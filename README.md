@@ -35,6 +35,27 @@ This software suite is composed of the following components:
 
 Epocum's API service enable users with local node installed to get information reguarding decentralized links and smartsharing contract generated from the same platform.
 
+API Endpoint http://localhost:88
+
+/get_webchain'
+	
+/get_smartchain'
+
+/getListConnectionsFromPost/:ipfsHash
+
+/getNumConnectionsFromPost/:ipfsHash
+
+/getCurrentTarget/:SmartSharingContractHash
+
+
+The response are in json standard mode.
+
+Example:
+
+https://localhost:88/get_webchain
+
+[{"_id":"xxxxxxxxxxxxxxx","ip":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","website":"https://www.somewebsite.com/","ipfs":"QmQxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","browser":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}]
+
 ## License
 
 The Epocum software suite is licensed under the terms of the Apache License 2.0.
