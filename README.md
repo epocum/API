@@ -39,7 +39,7 @@ Epocum's API service enable users with local node installed to get information r
 
 http://localhost:88
 
-## API with NO param
+## API with NO parameter
 
 /get_webchain
 	
