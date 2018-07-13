@@ -7,7 +7,7 @@ Epocum's API v1.0 folder MAP and use's specification
 *   [Introduction](#introduction)
 *   [Folder map](#folder-map)
 *   [Documentation](#documentation)
-*   [Licence](#licence)
+*   [Licence](#license)
 
 ## introduction
 
