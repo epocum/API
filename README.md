@@ -4,12 +4,12 @@ Epocum's API v1.0 folder MAP and use's specification
 
 ## Table of Contents
 
-*   [Introduction](#about-epocum-api-service)
-*   [Folder map](#folder map)
+*   [Introduction](#introduction)
+*   [Folder map](#folder-map)
 *   [Documentation](#documentation)
 *   [Licence](#licence)
 
-## About Epocum API Service
+## introduction
 
 About Epocum API 
 
@@ -26,7 +26,7 @@ assignment).
 We wrote OR-Tools in C++, but also provide wrappers in Python, C# and
 Java.
 
-## Codemap
+## Folder map
 
 This software suite is composed of the following components:
 
