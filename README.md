@@ -45,7 +45,7 @@ http://localhost:88
 	
 /get_smartchain
 
-## API with END param "/:param"
+## API with END parameter
 
 /getListConnectionsFromPost/:ipfsHash
 
