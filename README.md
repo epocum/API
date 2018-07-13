@@ -38,5 +38,4 @@ https://developers.google.com/optimization/
 
 ## License
 
-The OR-Tools software suite is licensed under the terms of the Apache License 2.0.
-<br>See [LICENSE-2.0](LICENSE-2.0.txt) for more information.
+The Epocum software suite is licensed under the terms of the Apache License 2.0.
