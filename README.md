@@ -1,15 +1,7 @@
-# API
-Api beta v1.0
+API
+# Api beta v1.0
 
-# OR-Tools - Google Optimization Tools
-
-[![Build
-Status](https://travis-ci.org/google/or-tools.svg?branch=master)](https://travis-ci.org/google/or-tools)
-[![Build status](https://ci.appveyor.com/api/projects/status/9hyykkcm8sh3ua6x?svg=true)](https://ci.appveyor.com/project/lperron/or-tools-98u1n)
-[![PyPI version](https://badge.fury.io/py/ortools.svg)](https://badge.fury.io/py/ortools)
-[![NuGet version](https://badge.fury.io/nu/Google.OrTools.svg)](https://badge.fury.io/nu/Google.OrTools)
-
-Google's software suite for combinatorial optimization.
+Epocum's API v1.0 folder and detailed specification
 
 ## Table of Contents
 
