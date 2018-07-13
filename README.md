@@ -31,15 +31,21 @@ This software suite is composed of the following components:
 │   └── resource          <- External resource
     └── db                <- local mongodb blockchain
 ```
-## Documentation
+# Documentation
 
 Epocum's API service enable users with local node installed to get information reguarding decentralized links and smartsharing contract generated from the same platform.
 
-API Endpoint http://localhost:88
+## API local endpoint
 
-/get_webchain'
+http://localhost:88
+
+## API with NO param
+
+/get_webchain
 	
-/get_smartchain'
+/get_smartchain
+
+## API with END param "/:param"
 
 /getListConnectionsFromPost/:ipfsHash
 
