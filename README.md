@@ -1,25 +1,19 @@
-API
 # Api beta v1.0
 
 Epocum's API v1.0 folder and detailed specification
 
 ## Table of Contents
 
-*   [About OR-Tools](#about-or-tools)
-*   [Codemap](#codemap)
-*   [Installation](#installation)
-*   [Experimental Build with CMake](#experimental-build-with-cmake)
-*   [Quick Start](#quick-start)
+*   [Introduction](#about-or-tools)
+*   [Folder map](#folder map)
 *   [Documentation](#documentation)
-*   [Contributing](#contributing)
-*   [License](#license)
+*   [Licence](#licence)
 
-## About OR-Tools
+## About Epocum API
 
-Google Optimization Tools (a.k.a., OR-Tools) is an open-source, fast and
-portable software suite for solving combinatorial optimization problems.
+Epocum's API 
 
-The suite contains:
+The API folder contains:
 * A constraint programming solver;
 * A linear programming solver;
 * Wrappers around commercial and other open source solvers, including mixed
