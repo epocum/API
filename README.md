@@ -20,34 +20,16 @@ We wrote all in Javascript and NodeJs.
 This software suite is composed of the following components:
 
 ```
-├── Epocum              <- Top-level
-│   ├── db              <- local mongodb blockchain
-│   ├── Dapp        <- Decentralized app
-│   │   ├── csharp        <- C# wrapper
-│   │   ├── java          <- Java wrapper
-│   │   └── python        <- Python wrapper
-│   ├── resource              <- Utilities needed by the constraint solver
-│   ├── constraint_solver <- Constraint solver
-│   │   ├── csharp        <- C# wrapper
-│   │   ├── java          <- Java wrapper
-│   │   └── python        <- Python wrapper
-│   ├── sat               <- Sat solver
-│   │   ├── csharp        <- C# wrapper
-│   │   ├── java          <- Java wrapper
-│   │   └── python        <- Python wrapper
-│   ├── bop               <- Boolean solver based on SAT
-│   ├── linear_solver     <- Linear solver wrapper
-│   │   ├── csharp        <- C# wrapper
-│   │   ├── java          <- Java wrapper
-│   │   └── python        <- Python wrapper
-│   ├── glop              <- Linear solver
-│   ├── lp_data           <- Data structures for linear models
-│   ├── graph             <- Graph algorithms
-│   │   ├── csharp        <- C# wrapper
-│   │   ├── java          <- Java wrapper
-│   │   └── python        <- Python wrapper
-│   ├── flatzinc          <- FlatZinc interpreter
+├── Epocum                <- Top-level
+│   ├── API               <- API
+│   ├── Dapp              <- Decentralized app
+│   │   ├── csharp        <- 
+│   │   ├── java          <-
+│   │   └── python        <-
+│   ├── node_modules      <- Node js dependencies folder
+│   │   ├──.......
 │   └── resource          <- External resource
+    └── db                <- local mongodb blockchain
 ```
 
 ## Installation
