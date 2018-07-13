@@ -1,2 +1,2 @@
 # API
-Api alfa 0.8
+Api beta v1.0
