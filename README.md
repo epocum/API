@@ -43,24 +43,20 @@ http://localhost:88
 
 ## API with NO parameter
 
-/get_webchain
+/get_proposals
 	
-/get_smartchain
+/get_acceptances
 
 ## API with END parameter
 
-/getListConnectionsFromPost/:ipfsHash
 
-/getNumConnectionsFromPost/:ipfsHash
-
-/getCurrentTarget/:SmartSharingContractHash
 
 
 The response are in json standard mode.
 
 Example:
 
-http://localhost:88/get_webchain
+http://localhost:88/get_acceptances
 
 [{"_id":"xxxxxxxxxxxxxxx","ip":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","website":"https://www.somewebsite.com/","ipfs":"QmQxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","browser":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}]
 
