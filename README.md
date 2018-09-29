@@ -47,10 +47,13 @@ http://localhost:88
 	
 /get_acceptances
 
+/get_DelegatesConnectionsList
+
 ## API with END parameter
 
-
-
+/get_ListConnectionsFromAcceptance/:acceptance_hash
+/get_NumConnectionsFromAcceptance/:acceptance_hash
+/get_ProposalCurrentTarget/:proposal_hash
 
 The response are in json standard mode.
 
